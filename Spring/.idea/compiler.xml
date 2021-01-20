@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="itheima_spring_ioc" />
+        <module name="springboot_mybatis" />
         <module name="itheima_spring_aop" />
+        <module name="springboot_quick" />
+        <module name="itheima_spring_ioc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -15,6 +17,14 @@
       <module name="itheima.spring.ioc" target="15" />
       <module name="itheima_spring_aop" target="1.5" />
       <module name="itheima_spring_ioc" target="15" />
+      <module name="itheima_spring_ioc_anno" target="15" />
+      <module name="springboot_mybatis" target="1.8" />
+      <module name="springboot_quick" target="15" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot_quick" options="-parameters" />
+    </option>
   </component>
 </project>

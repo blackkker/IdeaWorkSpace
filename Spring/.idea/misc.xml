@@ -6,7 +6,15 @@
         <option value="$PROJECT_DIR$/itheima_spring_aop/pom.xml" />
         <option value="$PROJECT_DIR$/itheima.spring.ioc/pom.xml" />
         <option value="$PROJECT_DIR$/itheima_spring_ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/itheima_spring_ioc_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_quick/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/itheima_spring_ioc_anno/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK">
